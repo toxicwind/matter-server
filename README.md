@@ -2,8 +2,8 @@
 
 <div align="right">
 
-[![License: MIT](https://img.shields.io/badge/license-MIT%20%2B%20upstream-blue?style=for-the-badge)](https://github.com/toxicwind/estate#license)
-[![estate](https://img.shields.io/badge/estate-monorepo-blue?style=for-the-badge)](https://github.com/toxicwind/estate)
+[![License: MIT](https://img.shields.io/badge/license-MIT%20%2B%20upstream-blue?style=for-the-badge)](https://github.com/toxicwind/Pens#license)
+[![Pens](https://img.shields.io/badge/Pens-monorepo-blue?style=for-the-badge)](https://github.com/toxicwind/Pens)
 
 </div>
 
@@ -52,7 +52,7 @@ mirror the live manifests here and commit.
 
 ## License & security
 
-MIT — see [LICENSE](https://github.com/toxicwind/estate#license).
+MIT — see [LICENSE](https://github.com/toxicwind/Pens#license).
 
 Manifests only — no secrets, no code. `npm ci` (not `npm install`) keeps
 the install reproducible from the lockfile.
