@@ -1,0 +1,87 @@
+2026-10-21T04:10:34.863Z cli-serve#1669626 --- server started (cli-serve) ---
+2026-10-21T04:10:34.864Z cli-serve#1669626 [delendai] work refs will be named `unknown-agent` — no model or agent is declared here.
+2026-10-21T04:10:34.864Z cli-serve#1669626 [delendai]       fix: set DELENDAI_AGENT_ID to the exact model doing the work (e.g. claude-opus-5).
+2026-10-21T04:10:35.207Z cli-serve#1669626 [delendai] work doctor: 1 of 12 workflow invariant(s) do not hold — run `delendai work doctor`
+2026-10-21T04:10:35.208Z cli-serve#1669626 [delendai]   ✗ checkout-clean: 1 path(s): M moon.yml
+2026-10-21T04:10:35.208Z cli-serve#1669626 [delendai]       fix: git restore --staged --worktree -- <path>
+2026-10-21T04:10:35.377Z cli-serve#1669626 === Server summary ===
+2026-10-21T04:10:35.377Z cli-serve#1669626   What is running, which surface is exposed, and how tools are loaded.
+2026-10-21T04:10:35.377Z cli-serve#1669626 [info] DelendAI ready
+2026-10-21T04:10:35.377Z cli-serve#1669626 version        0.1.0
+2026-10-21T04:10:35.377Z cli-serve#1669626 workspace      /home/toxic/estate/ranch/matter-server
+2026-10-21T04:10:35.377Z cli-serve#1669626 preset         custom
+2026-10-21T04:10:35.377Z cli-serve#1669626 surface        managed · lazy loading enabled
+2026-10-21T04:10:35.377Z cli-serve#1669626 tools          7 visible / 32 available
+2026-10-21T04:10:35.377Z cli-serve#1669626 plugins        0 configured · 0 loaded · 0 warm
+2026-10-21T04:10:35.377Z cli-serve#1669626   reason: managed by default at boot; the per-client mode is decided at MCP handshake from client capabilities (see stderr for the resolved reason)
+2026-10-21T04:10:35.377Z cli-serve#1669626 report         medium (default)
+2026-10-21T04:10:35.377Z cli-serve#1669626 
+2026-10-21T04:10:35.377Z cli-serve#1669626 === Available capabilities ===
+2026-10-21T04:10:35.377Z cli-serve#1669626   The skills and resources that can be requested when needed.
+2026-10-21T04:10:35.377Z cli-serve#1669626 skills        8 available · 0 preloaded
+2026-10-21T04:10:35.377Z cli-serve#1669626 resources     4 available
+2026-10-21T04:10:35.377Z cli-serve#1669626 
+2026-10-21T04:10:35.377Z cli-serve#1669626 === Context cost per request ===
+2026-10-21T04:10:35.377Z cli-serve#1669626   The schema tokens sent to the model for the visible tool surface.
+2026-10-21T04:10:35.377Z cli-serve#1669626 visible tools  ~1,858 tokens · 7.3 KiB of schemas
+2026-10-21T04:10:35.377Z cli-serve#1669626 full surface   ~13,614 tokens
+2026-10-21T04:10:35.377Z cli-serve#1669626 saved          ~11,756 tokens · 86.3%
+2026-10-21T04:10:35.377Z cli-serve#1669626 
+2026-10-21T04:10:35.377Z cli-serve#1669626 === Plugin loading ===
+2026-10-21T04:10:35.377Z cli-serve#1669626   Plugins loaded now and plugins waiting for their first use.
+2026-10-21T04:10:35.377Z cli-serve#1669626   loaded at startup (1): core
+2026-10-21T04:10:35.377Z cli-serve#1669626   lazy loaded on demand (0): none
+2026-10-21T04:10:35.377Z cli-serve#1669626 
+2026-10-21T04:10:35.377Z cli-serve#1669626 === Managed runtime ===
+2026-10-21T04:10:35.377Z cli-serve#1669626   Runtime policies for lazy activation, eviction, and MCP surface refreshes.
+2026-10-21T04:10:35.377Z cli-serve#1669626 lazy activation      enabled
+2026-10-21T04:10:35.377Z cli-serve#1669626 module loading       lazy
+2026-10-21T04:10:35.377Z cli-serve#1669626 internal routing     enabled
+2026-10-21T04:10:35.377Z cli-serve#1669626 idle eviction        5m
+2026-10-21T04:10:35.377Z cli-serve#1669626 max warm plugins     8
+2026-10-21T04:10:35.377Z cli-serve#1669626 list_changed needed  yes
+2026-10-21T04:10:35.377Z cli-serve#1669626 
+2026-10-21T04:10:35.441Z cli-serve#1669626 [delendai] wrote a project MCP server blueprint to .cache/delendai/bootstrap/blueprint.json; review it or call delendai_plan_mcp_project.
+2026-10-21T04:11:16.728Z cli-serve#1683978 --- server started (cli-serve) ---
+2026-10-21T04:11:16.733Z cli-serve#1683978 [delendai] work refs will be named `unknown-agent` — no model or agent is declared here.
+2026-10-21T04:11:16.733Z cli-serve#1683978 [delendai]       fix: set DELENDAI_AGENT_ID to the exact model doing the work (e.g. claude-opus-5).
+2026-10-21T04:11:17.101Z cli-serve#1683978 [delendai] work doctor: 1 of 12 workflow invariant(s) do not hold — run `delendai work doctor`
+2026-10-21T04:11:17.101Z cli-serve#1683978 [delendai]   ✗ checkout-clean: 1 path(s): M moon.yml
+2026-10-21T04:11:17.101Z cli-serve#1683978 [delendai]       fix: git restore --staged --worktree -- <path>
+2026-10-21T04:11:17.204Z cli-serve#1683978 === Server summary ===
+2026-10-21T04:11:17.204Z cli-serve#1683978   What is running, which surface is exposed, and how tools are loaded.
+2026-10-21T04:11:17.204Z cli-serve#1683978 [info] DelendAI ready
+2026-10-21T04:11:17.204Z cli-serve#1683978 version        0.1.0
+2026-10-21T04:11:17.204Z cli-serve#1683978 workspace      /home/toxic/estate/ranch/matter-server
+2026-10-21T04:11:17.204Z cli-serve#1683978 preset         custom
+2026-10-21T04:11:17.204Z cli-serve#1683978 surface        managed · lazy loading enabled
+2026-10-21T04:11:17.204Z cli-serve#1683978 tools          7 visible / 32 available
+2026-10-21T04:11:17.204Z cli-serve#1683978 plugins        0 configured · 0 loaded · 0 warm
+2026-10-21T04:11:17.204Z cli-serve#1683978   reason: managed by default at boot; the per-client mode is decided at MCP handshake from client capabilities (see stderr for the resolved reason)
+2026-10-21T04:11:17.204Z cli-serve#1683978 report         medium (default)
+2026-10-21T04:11:17.204Z cli-serve#1683978 
+2026-10-21T04:11:17.204Z cli-serve#1683978 === Available capabilities ===
+2026-10-21T04:11:17.204Z cli-serve#1683978   The skills and resources that can be requested when needed.
+2026-10-21T04:11:17.204Z cli-serve#1683978 skills        8 available · 0 preloaded
+2026-10-21T04:11:17.204Z cli-serve#1683978 resources     4 available
+2026-10-21T04:11:17.204Z cli-serve#1683978 
+2026-10-21T04:11:17.204Z cli-serve#1683978 === Context cost per request ===
+2026-10-21T04:11:17.204Z cli-serve#1683978   The schema tokens sent to the model for the visible tool surface.
+2026-10-21T04:11:17.204Z cli-serve#1683978 visible tools  ~1,858 tokens · 7.3 KiB of schemas
+2026-10-21T04:11:17.204Z cli-serve#1683978 full surface   ~13,614 tokens
+2026-10-21T04:11:17.204Z cli-serve#1683978 saved          ~11,756 tokens · 86.3%
+2026-10-21T04:11:17.204Z cli-serve#1683978 
+2026-10-21T04:11:17.204Z cli-serve#1683978 === Plugin loading ===
+2026-10-21T04:11:17.204Z cli-serve#1683978   Plugins loaded now and plugins waiting for their first use.
+2026-10-21T04:11:17.204Z cli-serve#1683978   loaded at startup (1): core
+2026-10-21T04:11:17.204Z cli-serve#1683978   lazy loaded on demand (0): none
+2026-10-21T04:11:17.204Z cli-serve#1683978 
+2026-10-21T04:11:17.204Z cli-serve#1683978 === Managed runtime ===
+2026-10-21T04:11:17.204Z cli-serve#1683978   Runtime policies for lazy activation, eviction, and MCP surface refreshes.
+2026-10-21T04:11:17.204Z cli-serve#1683978 lazy activation      enabled
+2026-10-21T04:11:17.204Z cli-serve#1683978 module loading       lazy
+2026-10-21T04:11:17.204Z cli-serve#1683978 internal routing     enabled
+2026-10-21T04:11:17.204Z cli-serve#1683978 idle eviction        5m
+2026-10-21T04:11:17.204Z cli-serve#1683978 max warm plugins     8
+2026-10-21T04:11:17.204Z cli-serve#1683978 list_changed needed  yes
+2026-10-21T04:11:17.204Z cli-serve#1683978 

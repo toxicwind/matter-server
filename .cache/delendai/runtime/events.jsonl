@@ -1,0 +1,11 @@
+{"version":1,"ts":"2026-10-21T04:10:35.304Z","kind":"session.started","meta":{"mode":"managed","workspace":"/home/toxic/estate/ranch/matter-server"},"sessionId":"mvhlgmnc-b393f922cc"}
+{"version":1,"ts":"2026-10-21T04:10:35.450Z","kind":"tool.started","toolName":"delendai_resolve_capability","sessionId":"mvhlgmnc-b393f922cc"}
+{"version":1,"ts":"2026-10-21T04:10:35.453Z","kind":"tool.started","toolName":"delendai_adopt_project","sessionId":"mvhlgmnc-b393f922cc"}
+{"version":1,"ts":"2026-10-21T04:10:35.460Z","kind":"tool.completed","toolName":"delendai_adopt_project","elapsedMs":7.756922000000031,"error":false,"estimatedTokens4B":5485,"sessionId":"mvhlgmnc-b393f922cc"}
+{"version":1,"ts":"2026-10-21T04:10:35.461Z","kind":"tool.completed","toolName":"delendai_resolve_capability","elapsedMs":11.079936999999973,"error":false,"estimatedTokens4B":11439,"sessionId":"mvhlgmnc-b393f922cc"}
+{"version":1,"ts":"2026-10-21T04:11:17.164Z","kind":"session.started","meta":{"mode":"managed","workspace":"/home/toxic/estate/ranch/matter-server"},"sessionId":"mvhlhiy4-8ad1d43035"}
+{"version":1,"ts":"2026-10-21T04:11:17.261Z","kind":"tool.started","toolName":"delendai_overview","sessionId":"mvhlhiy4-8ad1d43035"}
+{"version":1,"ts":"2026-10-21T04:11:17.266Z","kind":"tool.completed","toolName":"delendai_overview","elapsedMs":5.115776000000096,"error":false,"estimatedTokens4B":209,"sessionId":"mvhlhiy4-8ad1d43035"}
+{"version":1,"ts":"2026-10-21T04:11:36.019Z","kind":"session.started","meta":{"mode":"managed","workspace":"/home/toxic/estate/ranch/matter-server"},"sessionId":"mvhlhxhv-0ff8f78f40"}
+{"version":1,"ts":"2026-10-21T04:11:36.323Z","kind":"tool.started","toolName":"delendai_overview","sessionId":"mvhlhxhv-0ff8f78f40"}
+{"version":1,"ts":"2026-10-21T04:11:36.331Z","kind":"tool.completed","toolName":"delendai_overview","elapsedMs":7.588314999999966,"error":false,"estimatedTokens4B":344,"sessionId":"mvhlhxhv-0ff8f78f40"}
